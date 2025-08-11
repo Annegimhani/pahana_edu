@@ -53,7 +53,7 @@
         <header>
             <h2><i class="fas fa-chart-line"></i> Dashboard</h2>
            
-            <button id="toggleMenu"><i class="fas fa-bars"></i></button>
+            
         </header>
         
         <div class="cards">

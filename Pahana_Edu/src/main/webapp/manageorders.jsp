@@ -49,7 +49,7 @@
     <div class="main-content">
         <header>
             <h2><i class="fas fa-receipt"></i> Manage Orders</h2>
-            <button id="toggleMenu"><i class="fas fa-bars"></i></button>
+            
         </header>
 
         <div class="booking-container">

@@ -44,7 +44,7 @@
 <div class="main-content">
     <header>
         <h2><i class="fas fa-boxes-stacked"></i> Manage Items</h2>
-        <button id="toggleMenu"><i class="fas fa-bars"></i></button>
+        
     </header>
 
     <div class="user-container">

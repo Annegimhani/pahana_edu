@@ -27,7 +27,7 @@
                     <li><a href="#features" class="nav-link">Features</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><a href="#" class="nav-link nav-cta" onclick="login()">Login</a></li>
+                    <li><a href="adminlogin.jsp" class="nav-link nav-cta" onclick="login()">Login</a></li>
                 </ul>
                 
                 <button class="mobile-menu-btn" id="mobileMenuBtn">
