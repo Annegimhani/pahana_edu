@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="images/about-img.jpg" alt="Pahana Edu Bookstore interior">
+                    <img src="image/book2.jpg" alt="Pahana Edu Bookstore interior">
                 </div>
             </div>
         </div>

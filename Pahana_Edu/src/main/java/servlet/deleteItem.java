@@ -37,7 +37,7 @@ public class deleteItem extends HttpServlet {
             boolean deleted = service.deleteItem(itemId);
 
             if (deleted) {
-                showSuccess(response, "Item deleted successfully.", "manageitems.jsp");
+                showSuccess(response, "Item deleted successfully.", "manageitem.jsp");
             } else {
                 showError(response, "Failed to delete item. Try again.");
             }

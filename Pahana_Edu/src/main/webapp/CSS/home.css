@@ -223,12 +223,11 @@ a {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 60vh;
   min-height: 800px;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), 
-              url('../images/hero-bg.jpg') no-repeat center center/cover;
+  background: url('../image/book7.jpg') no-repeat center center/cover;
   color: var(--white);
   padding-top: 80px;
 }
@@ -238,15 +237,19 @@ a {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+	padding-top:1rem;
+  font-size: 1.50rem;
   margin-bottom: 2rem;
   opacity: 0.9;
+  color: black;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 
 .hero-buttons {
@@ -319,8 +322,7 @@ a {
 
 .about-image img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 60%;
 }
 
 .about-text {
