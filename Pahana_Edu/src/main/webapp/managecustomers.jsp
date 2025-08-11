@@ -78,17 +78,15 @@
                                 <td>${cus.c_email}</td>
                                 <td>${cus.c_unit}</td>
                                 <td class="action-btns">
-                                    <form action="deleteCustomer" method="post" style="display:inline;">
-									    <input type="hidden" name="cid" value="${cus.c_id}">
-									    <button type="submit" class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
-									</form>
-
-                                    <form action="editCustomer" method="get" style="display:inline;">
+                                    <form action="editCustomer" method="get" >
                                         <input type="hidden" name="cid" value="${cus.c_id}">
                                         <button type="submit" class="edit-btn"><i class="fas fa-edit"></i> Update</button>
                                     </form>
-
-                                   
+                                    <form action="deleteCustomer" method="post">
+									    <input type="hidden" name="cid" value="${cus.c_id}">
+									    <button type="submit" class="delete-btn"><i class="fas fa-trash"></i> Delete</button>
+									</form>
+                                 
                                 </td>
                             </tr>
                         </c:forEach>
