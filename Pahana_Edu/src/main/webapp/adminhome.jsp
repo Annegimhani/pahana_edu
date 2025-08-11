@@ -43,7 +43,7 @@
             <li><a href="adminhome.jsp" class="active"><i class="fas fa-chart-line"></i> Dashboard</a></li>
             <li><a href="managecustomers.jsp"><i class="fas fa-users"></i> Manage Customers</a></li>
             <li><a href="manageitem.jsp"><i class="fa-solid fa-boxes-stacked"></i> Manage Items</a></li>
-            <li><a href="adminviewbooking.jsp"><i class="fas fa-book"></i> All Orders</a></li>
+            <li><a href="manageorders.jsp"><i class="fas fa-receipt"></i> Manage Orders</a></li>
             <li><a href="help.jsp" ><i class="fas fa-question-circle"></i> Help</a></li>
             <li><a href="adminlogout.jsp"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
         </ul>

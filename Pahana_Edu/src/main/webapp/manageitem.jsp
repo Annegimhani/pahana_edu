@@ -34,7 +34,7 @@
     <ul>
         <li><a href="adminhome.jsp"><i class="fas fa-chart-line"></i> Dashboard</a></li>
         <li><a href="managecustomers.jsp"><i class="fas fa-users"></i> Manage Customers</a></li>
-        <li><a href="manageitems.jsp" class="active"><i class="fas fa-boxes-stacked"></i> Manage Items</a></li>
+        <li><a href="manageitem.jsp"><i class="fa-solid fa-boxes-stacked"></i> Manage Items</a></li>
         <li><a href="manageorders.jsp"><i class="fas fa-receipt"></i> Manage Orders</a></li>
         <li><a href="help.jsp" ><i class="fas fa-question-circle"></i> Help</a></li>
         <li><a href="adminlogout.jsp"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
@@ -51,8 +51,8 @@
         <div class="header-row">
             <h3>Item Management</h3>
             <div style="display: flex; gap: 10px;">
-              <form action="manageItems" method="post" style="display:inline;">
-                <button class="add-user-btn" style="background-color: #28a745;" onclick="location.href='additem.jsp'"><i class="fas fa-plus"></i> Add Item</button>
+              <form action="additem.jsp" method="post" style="display:inline;">
+                <button type="submit" class="add-user-btn" style="background-color: #28a745;"><i class="fas fa-plus"></i> Add Item</button>
               </form>
               <form action="manageItems" method="post" style="display:inline;">
                 <button type="submit" class="add-user-btn"><i class="fas fa-eye"></i> View All</button>

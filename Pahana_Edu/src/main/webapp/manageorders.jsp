@@ -56,7 +56,7 @@
             <div class="header-row">
                 <h3>All Orders</h3>
                 <div style="display: flex; gap: 10px;">
-                	<form action="addOrders" method="post">
+                	<form action="addorders.jsp" method="post">
                         <button type="submit" class="view-bookings-btn" style="background-color: #e67e22;">
                             <i class="fas fa-plus"></i> Add Order
                         </button>
