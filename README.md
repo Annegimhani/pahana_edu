@@ -3,7 +3,7 @@
 ## Overview
 This project is a web-based Online Billing System developed for Pahana Edu, a leading bookshop in Colombo City. It automates customer account management, item management, and billing processes, replacing manual methods with an efficient, computerized solution. Built using Java EE with a MySQL database, it fulfills the requirements of the CIS6003 Advanced Programming module at ICBT Campus.
 
-This GitHub repository contains the source code, UML diagrams, and documentation for the system.
+
 
 ## Features
 - **User Authentication**: Secure login with username and password validation.
@@ -35,11 +35,7 @@ The system uses a three-tier architecture (Presentation, Business Logic, Data Ac
 6. **Help Section**: Access guidelines via the help menu.
 7. **Logout**: Securely exit the system.
 
-## Version Control and Workflows
-The project uses Git for version control, hosted on GitHub. Key practices:
-- **Branching**: Feature branches  merged into `main` via pull requests.
-- **Commits**: Frequent commits with clear messages (e.g., `feat: implement user authentication servlet`).
-- **Updates**: Daily commits during development to reflect feature additions 
+
 
 Repository Link:https://github.com/Annegimhani/Pahana-Edu-Billing-System.git
 GitHub - Annegimhani/Pahana-Edu-Billing-System
