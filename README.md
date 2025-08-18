@@ -3,7 +3,7 @@
 ## Overview
 This project is a web-based Online Billing System developed for Pahana Edu, a leading bookshop in Colombo City. It automates customer account management, item management, and billing processes, replacing manual methods with an efficient, computerized solution. Built using Java EE with a MySQL database, it fulfills the requirements of the CIS6003 Advanced Programming module at ICBT Campus.
 
-This GitHub repository contains the source code, UML diagrams, and documentation for the system.
+
 
 ## Features
 - **User Authentication**: Secure login with username and password validation.
@@ -12,9 +12,28 @@ This GitHub repository contains the source code, UML diagrams, and documentation
 - **Billing Calculation**: Compute and print bills based on units consumed or items purchased.
 - **Help Section**: Provides user-friendly system usage guidelines for new users.
 - **Exit System**: Secure logout functionality.
-- **Additional Features**: Session management for secure user interactions.
+- **Additional Features**: Session management for secure user interactions,Home, About, Contact Us, Dashboard, Footer, Login Page.
+- 
+##  Architecture & Design Principles
 
-The system uses a three-tier architecture (Presentation, Business Logic, Data Access) and incorporates design patterns like Singleton and Factory for maintainability and scalability.
+This project follows established software architecture and design principles for clean, maintainable code.
+
+### ✅ Architectural Pattern
+- **MVC (Model-View-Controller):**  
+  Separates concerns between data (Model), UI (View), and logic/control (Controller) for better structure and testability.
+
+### ✅ Design Principles
+- **SOLID Principles:**
+  - **SRP (Single Responsibility Principle):**  
+    Each class and component has one clearly defined responsibility.
+
+### ✅ Design Patterns Used
+- **Factory Pattern:**  
+  Used to encapsulate object creation logic, improving flexibility and decoupling components.
+
+- **Singleton Pattern:**  
+  Ensures a class has only one instance and provides a global point of access to it (used where shared state or config is required).
+
 
 ## Technologies Used
 - **Programming Language**: Java EE (Servlets, JSP)
